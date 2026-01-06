@@ -91,7 +91,7 @@ def show_tasks(): #Зроблено
         for task_names in task_list:
             if task_list[task_names]["status"] == 'In progress':
                 print(f'Title: {task_names}')
-                print(f'Id: {task_list[task_names]["id"]}')
+                princ(f'Id: {task_list[task_names]["id"]}')
                 print(f'Status: {task_list[task_names]["status"]}')
                 print(f'Creating time: {task_list[task_names]["date"]}')
                 print(f'Done time: {task_list[task_names]["done_time"]}')

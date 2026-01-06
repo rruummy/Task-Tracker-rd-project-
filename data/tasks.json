@@ -1,26 +1,47 @@
 {
-    "Learn Python": {
-        "id": 0,
-        "status": "Created",
-        "date": "02/01/26 14:49:48",
-        "done_time": null
-    },
-    "Create new function": {
-        "id": 3,
-        "status": "Created",
-        "date": "02/01/26 17:35:45",
-        "done_time": null
-    },
-    "Bug": {
-        "id": 4,
-        "status": "Created",
-        "date": "02/01/26 17:56:02",
-        "done_time": null
-    },
-    "This is bug": {
-        "id": 5,
-        "status": "In progress",
-        "date": "02/01/26 17:56:20",
-        "done_time": null
-    }
+    "LAST ID": 6,
+    "TASKS": [
+        {
+            "ID": 1,
+            "Name": "Rewrite deleted code :(",
+            "Status": "Created",
+            "Date": "06/01/26 11:19:39",
+            "Last Change": "06/01/26 11:19:39"
+        },
+        {
+            "ID": 2,
+            "Name": "Buy a Monster",
+            "Status": "Created",
+            "Date": "06/01/26 11:19:41",
+            "Last Change": "06/01/26 11:19:41"
+        },
+        {
+            "ID": 3,
+            "Name": "Wash a plate",
+            "Status": "Created",
+            "Date": "06/01/26 11:19:42",
+            "Last Change": "06/01/26 11:19:42"
+        },
+        {
+            "ID": 4,
+            "Name": "Do a project (Uni)",
+            "Status": "Created",
+            "Date": "06/01/26 11:20:45",
+            "Last Change": "06/01/26 11:20:45"
+        },
+        {
+            "ID": 5,
+            "Name": "Push this project",
+            "Status": "Created",
+            "Date": "06/01/26 11:21:01",
+            "Last Change": "06/01/26 11:21:01"
+        },
+        {
+            "ID": 6,
+            "Name": "Test this project",
+            "Status": "Created",
+            "Date": "06/01/26 11:21:12",
+            "Last Change": "06/01/26 11:21:12"
+        }
+    ]
 }
