@@ -17,12 +17,12 @@ def open_json(): #Done
 def save_json(json_file): #Done
     with open(JSON_PATH, "w") as data:
         json.dump(json_file, data, indent=4)
-        print("Succesfully!")
 
 def print_task(task): #Done
     print(f"ID: {task["ID"]}")
     print(f"Name: {task["Name"]}")
-    print(f"Status: {task["Status"]}")
+    print(f"Description: {task["Description"]}")
+    print(f"Status: {task["Status"]}")  
     print(f"Date: {task["Date"]}")
     print(f"Last change: {task["Last Change"]}")
     print("-" * 20)
@@ -42,11 +42,13 @@ def list_tasks(): #Done
 def create_task(): #Done
     json_file = open_json()
     task_name = input("> ")
+    task_description = input("> ")
     task_creating_time = time.strftime("%d/%m/%y %H:%M:%S")
     task_id = json_file["LAST ID"] + 1
     json_file["TASKS"].append({
                        "ID": task_id,
                        "Name": task_name,
+                       "Description": task_description,
                        "Status": "Created",
                        "Date": task_creating_time,
                        "Last Change": task_creating_time
@@ -64,7 +66,6 @@ def change_task_status(): #Done
     json_file = open_json()
     ch_status = input("> ")
     if ch_status not in ('Created', 'In progress', 'Done'):
-        print("ІДІ")
         return None
     ch_id = int(input("> "))
     for task in json_file["TASKS"]:
@@ -89,7 +90,6 @@ def filter_tasks(): #Done
     json_file = open_json()
     fil_status = input("> ")
     if fil_status not in ('Created', 'In progress', 'Done'):
-        print("ІДІ")
         return None
     print("-" * 20)
     [print_task(task) for task in json_file["TASKS"] if task["Status"] == fil_status]

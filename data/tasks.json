@@ -1,11 +1,12 @@
 {
-    "LAST ID": 10,
+    "LAST ID": 11,
     "TASKS": [
         {
             "ID": 1,
             "Name": "Rewrite deleted code :(",
             "Status": "In progress",
             "Date": "06/01/26 11:19:39",
+            "Description": "I deleted last update, and must redo this.",
             "Last Change": "06/01/26 11:50:36"
         },
         {
@@ -13,33 +14,38 @@
             "Name": "Buy a Monster",
             "Status": "Created",
             "Date": "06/01/26 11:19:41",
+            "Description": "I like drink Monster :3",
             "Last Change": "06/01/26 11:19:41"
         },
         {
             "ID": 3,
             "Name": "Wash a plate",
-            "Status": "Created",
+            "Status": "Done",
             "Date": "06/01/26 11:19:42",
-            "Last Change": "06/01/26 11:19:42"
+            "Description": "None",
+            "Last Change": "06/01/26 13:47:32"
         },
         {
             "ID": 4,
             "Name": "Do a project (Uni)",
             "Status": "Created",
+            "Description": "None",
             "Date": "06/01/26 11:20:45",
             "Last Change": "06/01/26 11:20:45"
         },
         {
             "ID": 6,
-            "Name": "Test this project",
+            "Name": "Go for a walk",
             "Status": "Created",
+            "Description": "None",
             "Date": "06/01/26 11:21:12",
-            "Last Change": "06/01/26 11:21:12"
+            "Last Change": "06/01/26 13:48:06"
         },
         {
             "ID": 7,
             "Name": "Go sleep",
             "Status": "Created",
+            "Description": "None",
             "Date": "06/01/26 11:34:42",
             "Last Change": "06/01/26 11:34:42"
         },
@@ -47,22 +53,25 @@
             "ID": 8,
             "Name": "Read manhva",
             "Status": "Created",
+            "Description": "None",
             "Date": "06/01/26 11:34:54",
             "Last Change": "06/01/26 11:34:54"
-        },
-        {
-            "ID": 9,
-            "Name": "Debug func search_task",
-            "Status": "Created",
-            "Date": "06/01/26 11:37:38",
-            "Last Change": "06/01/26 11:37:38"
         },
         {
             "ID": 10,
             "Name": "Do filtering of tasks",
             "Status": "Created",
+            "Description": "None",
             "Date": "06/01/26 11:37:48",
             "Last Change": "06/01/26 11:52:18"
+        },
+        {
+            "ID": 11,
+            "Name": "Watch Python Tutor",
+            "Description": "To become better in python",
+            "Status": "Created",
+            "Date": "06/01/26 13:46:21",
+            "Last Change": "06/01/26 13:46:21"
         }
     ]
 }
