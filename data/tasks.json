@@ -1,5 +1,5 @@
 {
-    "LAST ID": 11,
+    "LAST ID": 13,
     "TASKS": [
         {
             "ID": 1,
@@ -72,6 +72,14 @@
             "Status": "Created",
             "Date": "06/01/26 13:46:21",
             "Last Change": "06/01/26 13:46:21"
+        },
+        {
+            "ID": 13,
+            "Name": "Doing command with CLI",
+            "Description": "Learn how to do argumenting with CLI ",
+            "Status": "Created",
+            "Date": "20/01/26 00:19:26",
+            "Last Change": "20/01/26 00:19:26"
         }
     ]
 }

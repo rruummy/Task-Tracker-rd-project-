@@ -1,9 +1,7 @@
 import time
 import json
 import os
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-JSON_PATH = os.path.join(BASE_DIR, "data", "tasks.json")
+import sys
 
 def open_json(): #Done
     if not os.path.exists(JSON_PATH):
@@ -90,6 +88,39 @@ def filter_tasks(): #Done
     json_file = open_json()
     fil_status = input("> ")
     if fil_status not in ('Created', 'In progress', 'Done'):
+        print("There`s not such status.(Write Created/In progress/Done)")
         return None
     print("-" * 20)
     [print_task(task) for task in json_file["TASKS"] if task["Status"] == fil_status]
+
+def help():
+    print("=" * 20)
+    print("List of commands:")
+    print("create - to create new task")
+    print("delete - to delete task")
+    print("list - show all tasks")
+    print("schange - change a status of task")
+    print("nchange - change a name of task")
+    print("filter - show filtered tasks")
+    print("=" * 20)
+
+if __name__ == "__main__":
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    JSON_PATH = os.path.join(BASE_DIR, "data", "tasks.json")
+    if sys.argv[1] == "list":
+        list_tasks()
+    elif sys.argv[1] == "create":
+        create_task()
+    elif sys.argv[1] == "delete":
+        delete_task()
+    elif sys.argv[1] == "schange":
+        change_task_status()
+    elif sys.argv[1] == "nchange":
+        change_task_name()
+    elif sys.argv[1] == "filter":
+        filter_tasks()
+    elif sys.argv[1] == "help":
+        help()
+    else:
+        print(f"\nThere's not such a command.")
+        help()
