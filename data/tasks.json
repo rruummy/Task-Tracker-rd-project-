@@ -1,85 +1,13 @@
 {
-    "LAST ID": 13,
+    "LAST ID": 1,
     "TASKS": [
         {
             "ID": 1,
-            "Name": "Rewrite deleted code :(",
-            "Status": "In progress",
-            "Date": "06/01/26 11:19:39",
-            "Description": "I deleted last update, and must redo this.",
-            "Last Change": "06/01/26 11:50:36"
-        },
-        {
-            "ID": 2,
-            "Name": "Buy a Monster",
+            "Name": "Pull a project",
+            "Description": "Version 1.0",
             "Status": "Created",
-            "Date": "06/01/26 11:19:41",
-            "Description": "I like drink Monster :3",
-            "Last Change": "06/01/26 11:19:41"
-        },
-        {
-            "ID": 3,
-            "Name": "Wash a plate",
-            "Status": "Done",
-            "Date": "06/01/26 11:19:42",
-            "Description": "None",
-            "Last Change": "06/01/26 13:47:32"
-        },
-        {
-            "ID": 4,
-            "Name": "Do a project (Uni)",
-            "Status": "Created",
-            "Description": "None",
-            "Date": "06/01/26 11:20:45",
-            "Last Change": "06/01/26 11:20:45"
-        },
-        {
-            "ID": 6,
-            "Name": "Go for a walk",
-            "Status": "Created",
-            "Description": "None",
-            "Date": "06/01/26 11:21:12",
-            "Last Change": "06/01/26 13:48:06"
-        },
-        {
-            "ID": 7,
-            "Name": "Go sleep",
-            "Status": "Created",
-            "Description": "None",
-            "Date": "06/01/26 11:34:42",
-            "Last Change": "06/01/26 11:34:42"
-        },
-        {
-            "ID": 8,
-            "Name": "Read manhva",
-            "Status": "Created",
-            "Description": "None",
-            "Date": "06/01/26 11:34:54",
-            "Last Change": "06/01/26 11:34:54"
-        },
-        {
-            "ID": 10,
-            "Name": "Do filtering of tasks",
-            "Status": "Created",
-            "Description": "None",
-            "Date": "06/01/26 11:37:48",
-            "Last Change": "06/01/26 11:52:18"
-        },
-        {
-            "ID": 11,
-            "Name": "Watch Python Tutor",
-            "Description": "To become better in python",
-            "Status": "Created",
-            "Date": "06/01/26 13:46:21",
-            "Last Change": "06/01/26 13:46:21"
-        },
-        {
-            "ID": 13,
-            "Name": "Doing command with CLI",
-            "Description": "Learn how to do argumenting with CLI ",
-            "Status": "Created",
-            "Date": "20/01/26 00:19:26",
-            "Last Change": "20/01/26 00:19:26"
+            "Date": "20/01/26 23:05:36",
+            "Last Change": "20/01/26 23:05:36"
         }
     ]
 }
