@@ -160,28 +160,3 @@ The program safely handles:
   * time
 
 ---
-
-## Project Purpose
-
----
-
-This project is intended for:
-
-* Coursework or academic projects
-* Learning CLI application development
-* Demonstrating basic CRUD operations
-* Junior Python developer portfolio
-
----
-
-## Possible Improvements
-
----
-
-[ ] Replace JSON storage with SQLite
-[ ] Use argparse instead of sys.argv
-[ ] Split code into modules
-[ ] Add unit tests
-[ ] Build an executable (.exe)
-
----
