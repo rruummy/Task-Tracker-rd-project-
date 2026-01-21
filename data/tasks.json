@@ -3,11 +3,11 @@
     "TASKS": [
         {
             "ID": 1,
-            "Name": "Pull a project",
+            "Name": "Push a project",
             "Description": "Version 1.0",
-            "Status": "Created",
+            "Status": "Done",
             "Date": "20/01/26 23:05:36",
-            "Last Change": "20/01/26 23:05:36"
+            "Last Change": "21/01/26 23:42:48"
         }
     ]
 }
